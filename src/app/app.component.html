@@ -13,3 +13,9 @@
 <h1>My First Attribute Pipe</h1>
 
 <p>{{ birthday | date }}</p>
+<p>{{ birthday | date: "shortTime" }}</p>
+<p>{{ birthday | date: "fullDate" }}</p>
+<p>{{ time | date: "HH:mm" }}</p>
+<p>{{ money | currency: "CAD":"symbol-narrow" }}</p>
+<p>{{ decimal | number: "3.1-2" }}</p>
+<p>{{ porcent | percent }}</p>
